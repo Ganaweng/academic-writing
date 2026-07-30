@@ -1,0 +1,14 @@
+interface:
+  display_name: Academic Terminology Validator
+  short_description: Compare, validate, and polish scholarly terminology
+  default_prompt: Use $validate-academic-terminology to compare these terms and revise
+    the sentence using target-venue evidence.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
